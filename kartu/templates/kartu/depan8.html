@@ -1,0 +1,43 @@
+{% load static %}
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'kartu/style.css' %}"
+    />
+    <link rel="stylesheet" type="text/css" href="{% static app_css %}" />
+  </head>
+  <body>
+    {% for a in data_murid %}
+    <div class="customCardFront">
+      <img src="{% static "cardtemplate/sekolah_12/smpAU.png" %}" alt="My image"
+      width="100%" height="100%">
+      <div>
+        <img src="{% static "foto/sekolah_newalukhuwah/"|add:a.IdImage|add:".jpg" %}" alt="foto" class="avatar" >
+      </div>
+      <div class="info12">
+        {% if a.nama|length < 20%}
+        <p class="nama">{{a.nama}}</p>
+        {% else %}
+        <p class="nama_alter">{{a.nama}}</p>
+        {% endif %}
+
+        <p class="IDcard">{{a.IdCard}}</p>
+
+        {% if a.TTL|length < 20 %}
+        <p class="TTL">{{a.TTL}}</p>
+        {% else %}
+        <p class="TTL_alter">{{a.TTL}}</p>
+        {% endif %}
+
+        {% if a.alamat|length < 50%}
+        <p class="alamat">{{a.alamat}}</p>
+        {% else %}
+        <p class="alamat_alter">{{a.alamat}}</p>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </body>
+</html>

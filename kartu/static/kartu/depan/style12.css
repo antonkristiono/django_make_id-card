@@ -1,0 +1,45 @@
+.info12{
+    display: block;
+    position: absolute;
+    /* width: 488.573px; */
+    top: 67px;
+    font-family: Ubuntu;
+    right: 58px;
+    z-index: 1;
+    font-size: 15px;
+    text-align: right;
+    border: 22px;
+    color: white;
+    font-weight: bold;
+    line-height: 1.6;
+    width: 246px;
+    text-transform: uppercase;
+}
+
+.IDcard {
+    margin-top: -6px;
+}
+
+.TTL {
+    margin-top: 4px;
+}
+
+.TTL_alter {
+    font-size: 12px;
+    margin-top: 16px;
+}
+
+.nama_alter{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.alamat {
+    margin-top: 0px;
+    /* line-height: 3px; */
+}
+
+.alamat_alter {
+    font-size: 10px;
+}

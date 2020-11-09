@@ -1,0 +1,93 @@
+{% load static %}
+.customCardFront {
+    height: 310px;
+    width: 488.573px;
+    float: left;
+    margin: 5px 5.67px;
+    position: relative;
+}
+
+.customCardFrontVertical {
+    height: 488.573px;
+    width: 310px;
+    float: left;
+    margin: 5px 5.67px;
+    position: relative;
+}
+
+.customCardBack {
+    height: 310px;
+    width: 488.573px;
+    float: left;
+    margin: 5px 5.67px;
+    position: relative;
+}
+
+/* .nama{ */
+/*     text-transform: uppercase; */
+/* } */
+
+
+
+.IdCard {
+    line-height: 2.3
+}
+
+.TTL {
+    line-height: 1.9;
+}
+
+
+.barcode{
+    position: absolute;
+    z-index: 1;
+    bottom: -3px;
+    left: 129px;
+}
+
+/* .info { */
+/*     display: block; */
+/*     position: absolute; */
+/*     /\* width: 488.573px; *\/ */
+/*     top: 47px; */
+/*     font-family: Adobe Devanagari; */
+/*     right: -1px; */
+/*     z-index: 1; */
+/*     font-size: 15px; */
+/*     text-align: left; */
+/*     border: 22px; */
+/*     color: white; */
+/*     font-weight: bold; */
+/*     line-height: 1.6; */
+/*     width: 246px; */
+/* } */
+
+.back {
+    display: block;
+    position: absolute;
+    width: 310px;
+    top: 121px;
+    font-family: Adobe Devanagari;
+    right: 35px;
+    z-index: 1;
+    font-size: 12px;
+}
+
+.titikdua {
+    display: block;
+    position: absolute;
+    width: 310px;
+    top: 121px;
+    font-family: Ubuntu;
+    right: -66px;
+    z-index: 1;
+    font-size: 12px;
+}
+
+.avatar {
+    width: 119px;
+    position: absolute;
+    z-index: -1;
+    top: 50px;
+    left: 54px;
+}

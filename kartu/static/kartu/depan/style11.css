@@ -1,0 +1,38 @@
+.nama11{
+    text-transform:capitalize;
+}
+
+.nama_alter11{
+    text-transform: capitalize;
+    /* font-size: 12px; */
+    /* position: absolute; */
+    /* top: 4px; */
+    text-align: center;
+}
+
+.info {
+    display: block;
+    position: absolute;
+    /* width: 488.573px; */
+    top: 41px;
+    font-family: Ubuntu;
+    right: 13px;
+    z-index: 1;
+    font-size: 15px;
+    text-align: center;
+    border: 22px;
+    color: white;
+    font-weight: bold;
+    line-height: 1.6;
+    width: 246px;
+}
+
+.info2 {
+    font-size: 13px;
+    z-index: 1;
+    position: absolute;
+    top: 86px;
+    font-family: Ubuntu;
+    left: 227px;
+    margin-right: 31px;
+}

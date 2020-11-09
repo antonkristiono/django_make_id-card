@@ -1,0 +1,30 @@
+  {% load static %}
+  <html>
+  <head>
+   <link rel="stylesheet" type="text/css" href="{% static 'kartu/style9.css' %}">
+   <link rel="stylesheet" type="text/css" href="{% static app_css %}">
+ </head>
+ <body>
+  {% for a in data_murid %} 
+  <div class="customCardFront">
+    <img src="{% static "cardtemplate/sekolah_9/nurul_dpn.png" %}" alt="My image" width="100%" height="100%">
+    <div>
+      <!-- <img src="{% static "foto/sekolah_nurulislam/"|add:a.IdImage|add:".jpg" %}" alt="foto" class="avatar" > -->
+       <img src="{% static "foto/sekolah_nurulislam/"|add:a.IdImage|add:"."|add:a.fotoExtension" %}" alt="foto" class="avatar" >
+    </div>
+    <div class="info">
+      {% if a.nama|length < 26 %}
+      <p class="nama">{{a.nama}}</p>
+      {% else %}
+      <p class="nama_alter">{{a.nama}}</p>
+      {% endif %}
+    </div>
+    <div class="info2">
+      <p class="temlah">{{a.TempatLahir}}</p>
+      <p class="tanglah">{{a.TanggalLahir}}</p>
+      <p class="alamat">{{a.alamat}}</p>
+    </div>
+  </div>
+  {% endfor %}
+ </body>
+  </html>

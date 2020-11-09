@@ -1,0 +1,14 @@
+{% load static %}
+  <html>
+  <head>
+   <link rel="stylesheet" type="text/css" href="{% static 'kartu/style9.css' %}">
+   <link rel="stylesheet" type="text/css" href="{% static app_css %}">
+ </head>
+ <body>
+  {% for a in data_murid %} 
+  <div class="customCardBack">
+    <img src="{% static "cardtemplate/sekolah_9/nurul_belakang.png" %}" alt="My image" width="100%" height="100%">
+  </div>
+  {% endfor %}
+</body>
+</html>

@@ -1,0 +1,8 @@
+kartu/static/foto/*
+kartu/static/cardtemplate/*
+
+.venv/
+
+fe-card/node_modules/*
+.nuxt/*
+

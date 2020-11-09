@@ -1,0 +1,44 @@
+[
+  {
+    "name": "back",
+    "path": "/back",
+    "component": "/home/anton/work/tki/django_card/fe-card/pages/back.vue",
+    "chunkName": "pages/back",
+    "_name": "_c8886d5e"
+  },
+  {
+    "name": "back13",
+    "path": "/back13",
+    "component": "/home/anton/work/tki/django_card/fe-card/pages/back13.vue",
+    "chunkName": "pages/back13",
+    "_name": "_c585b79a"
+  },
+  {
+    "name": "index13",
+    "path": "/index13",
+    "component": "/home/anton/work/tki/django_card/fe-card/pages/index13.vue",
+    "chunkName": "pages/index13",
+    "_name": "_51f6e47a"
+  },
+  {
+    "name": "sma10PIimamsyafii",
+    "path": "/sma10PIimamsyafii",
+    "component": "/home/anton/work/tki/django_card/fe-card/pages/sma10PIimamsyafii.vue",
+    "chunkName": "pages/sma10PIimamsyafii",
+    "_name": "_715b66c0"
+  },
+  {
+    "name": "tkimamsyafii",
+    "path": "/tkimamsyafii",
+    "component": "/home/anton/work/tki/django_card/fe-card/pages/tkimamsyafii.vue",
+    "chunkName": "pages/tkimamsyafii",
+    "_name": "_0262a348"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/anton/work/tki/django_card/fe-card/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_5ea6ef58"
+  }
+]

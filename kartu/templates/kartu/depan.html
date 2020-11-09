@@ -1,0 +1,30 @@
+{% load static %}
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'kartu/style.css' %}"
+    />
+    <link rel="stylesheet" type="text/css" href="{% static app_css %}" />
+  </head>
+  <body>
+    {% for a in data_murid %}
+    <div class="customCardFrontVertical">
+      <img src="{% static "cardtemplate/sekolah_5/DPN.png" %}" alt="My image"
+      width="100%" height="100%">
+      <div>
+        <img src="{% static
+        "foto/sekolah_alukhuwwahsubang/"|add:a.IdImage|add:".jpg" %}" alt="foto"
+        class="avatar" >
+      </div>
+      <div class="info">
+        <p class="nama">{{a.nama}}</p>
+        <p class="alamat">{{a.alamat}}</p>
+        <!-- <p>{{a.TempatLahir}}, {{a.TanggalLahir}}</p> -->
+        <p class="TTL">{{a.TTL}}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </body>
+</html>

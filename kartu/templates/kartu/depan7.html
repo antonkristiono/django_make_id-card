@@ -1,0 +1,43 @@
+{% load static %}
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="{% static 'kartu/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static app_css %}">
+  </head>
+  <body>
+    {% for a in data_murid %}
+    <div class="customCardFront">
+      <img src="{% static "cardtemplate/sekolah_5/smpAU.png" %}" alt="My image" width="100%" height="100%">
+      <div >
+        <img src="{% static "foto/sekolah_ukhuwah8/"|add:a.IdImage|add:".jpg" %}" alt="foto" class="avatar" >
+      </div>
+      <table>
+        <tbody class="info">
+          <tr>
+            <td class="nama">{{a.nama}}</td>
+          </tr>
+          <tr>
+            <td class="IdCard">{{a.IdCard}}</td>
+          </tr>
+          <tr>
+            <td class="TTL">{{a.TTL}}</td>
+          </tr>
+          <tr>
+            <!-- <td class="alamat">
+                 {{a.alamat.length}}
+                 {% if a.alamat.length < 25 %}
+                 {{a.alamat}} lorem iosum dilijh dhdsds hsdus
+                 {% else %}
+                 {{a.alamat }}
+                 {% endif %}
+                 </td> -->
+            <td class="alamat">
+              {{a.alamat}}
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+    {% endfor %}
+  </body>
+</html>

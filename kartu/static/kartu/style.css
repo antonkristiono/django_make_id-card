@@ -1,0 +1,68 @@
+.customCardFront {
+    height: 310px;
+    width: 488.573px;
+    float: left;
+    margin: 5px 5.67px;
+    position: relative;
+}
+
+.customCardFrontVertical {
+    height: 488.573px;
+    width: 310px;
+    float: left;
+    margin: 5px 5.67px;
+    position: relative;
+}
+
+.customCardBack {
+    height: 310px;
+    width: 488.573px;
+    float: left;
+    margin: 5px 5.67px;
+    position: relative;
+}
+
+
+.alamat2{
+    line-height: 16px;
+    position: absolute;
+    width: 231px;
+    top: 44px;
+}
+
+.barcode{
+    position: absolute;
+    z-index: 1;
+    bottom: -3px;
+    left: 129px;
+}
+
+.back {
+    display: block;
+    position: absolute;
+    width: 310px;
+    top: 121px;
+    font-family: Ubuntu;
+    right: 35px;
+    z-index: 1;
+    font-size: 12px;
+}
+
+.titikdua {
+    display: block;
+    position: absolute;
+    width: 310px;
+    top: 121px;
+    font-family: Ubuntu;
+    right: -66px;
+    z-index: 1;
+    font-size: 12px;
+}
+
+.avatar {
+    width: 150px;
+    position: absolute;
+    z-index: -1;
+    top: 101px;
+    left: 29px;
+}
