@@ -35,6 +35,20 @@
     "_name": "_8a798764"
   },
   {
+    "name": "sicc",
+    "path": "/sicc",
+    "component": "/home/anton/work/dev/id-card-gen/fe-card/pages/sicc.vue",
+    "chunkName": "pages/sicc",
+    "_name": "_74e3bacc"
+  },
+  {
+    "name": "sicc-back",
+    "path": "/sicc-back",
+    "component": "/home/anton/work/dev/id-card-gen/fe-card/pages/sicc-back.vue",
+    "chunkName": "pages/sicc-back",
+    "_name": "_11356778"
+  },
+  {
     "name": "sma10PIimamsyafii",
     "path": "/sma10PIimamsyafii",
     "component": "/home/anton/work/dev/id-card-gen/fe-card/pages/sma10PIimamsyafii.vue",

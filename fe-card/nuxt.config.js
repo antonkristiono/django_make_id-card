@@ -1,5 +1,11 @@
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
+
+  mode: "spa",
+  server: {
+    host: "0.0.0.0",
+    port: 3000,
+  },
   head: {
     title: 'fe-card',
     meta: [
