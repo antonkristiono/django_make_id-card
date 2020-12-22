@@ -2,8 +2,10 @@ asgiref==3.2.10
 defusedxml==0.6.0
 diff-match-patch==20200713
 Django==3.1
+django-cors-headers==3.6.0
 django-import-export==2.3.0
 django-multiupload==0.5.2
+djangorestframework==3.12.2
 easy-thumbnails==2.7
 et-xmlfile==1.0.1
 jdcal==1.4.1

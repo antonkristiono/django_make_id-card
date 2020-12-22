@@ -2,71 +2,85 @@
   {
     "name": "back",
     "path": "/back",
-    "component": "/home/anton/work/dev/id-card-gen/fe-card/pages/back.vue",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/back.vue",
     "chunkName": "pages/back",
-    "_name": "_2fa2bc06"
+    "_name": "_ec25dc26"
   },
   {
     "name": "back13",
     "path": "/back13",
-    "component": "/home/anton/work/dev/id-card-gen/fe-card/pages/back13.vue",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/back13.vue",
     "chunkName": "pages/back13",
-    "_name": "_cf46fc42"
+    "_name": "_77829462"
   },
   {
     "name": "golf",
     "path": "/golf",
-    "component": "/home/anton/work/dev/id-card-gen/fe-card/pages/golf.vue",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/golf.vue",
     "chunkName": "pages/golf",
-    "_name": "_397e3010"
+    "_name": "_f6015030"
   },
   {
     "name": "golf-back",
     "path": "/golf-back",
-    "component": "/home/anton/work/dev/id-card-gen/fe-card/pages/golf-back.vue",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/golf-back.vue",
     "chunkName": "pages/golf-back",
-    "_name": "_2a2195cc"
+    "_name": "_1ac8c848"
   },
   {
     "name": "index13",
     "path": "/index13",
-    "component": "/home/anton/work/dev/id-card-gen/fe-card/pages/index13.vue",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/index13.vue",
     "chunkName": "pages/index13",
-    "_name": "_8a798764"
+    "_name": "_0b27865e"
+  },
+  {
+    "name": "pol2",
+    "path": "/pol2",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/pol2.vue",
+    "chunkName": "pages/pol2",
+    "_name": "_290d258b"
+  },
+  {
+    "name": "pol2-back",
+    "path": "/pol2-back",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/pol2-back.vue",
+    "chunkName": "pages/pol2-back",
+    "_name": "_936847ce"
   },
   {
     "name": "sicc",
     "path": "/sicc",
-    "component": "/home/anton/work/dev/id-card-gen/fe-card/pages/sicc.vue",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/sicc.vue",
     "chunkName": "pages/sicc",
-    "_name": "_74e3bacc"
+    "_name": "_16a22abc"
   },
   {
     "name": "sicc-back",
     "path": "/sicc-back",
-    "component": "/home/anton/work/dev/id-card-gen/fe-card/pages/sicc-back.vue",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/sicc-back.vue",
     "chunkName": "pages/sicc-back",
-    "_name": "_11356778"
+    "_name": "_4ca124f0"
   },
   {
     "name": "sma10PIimamsyafii",
     "path": "/sma10PIimamsyafii",
-    "component": "/home/anton/work/dev/id-card-gen/fe-card/pages/sma10PIimamsyafii.vue",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/sma10PIimamsyafii.vue",
     "chunkName": "pages/sma10PIimamsyafii",
-    "_name": "_b17c2918"
+    "_name": "_349ce184"
   },
   {
     "name": "tkimamsyafii",
     "path": "/tkimamsyafii",
-    "component": "/home/anton/work/dev/id-card-gen/fe-card/pages/tkimamsyafii.vue",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/tkimamsyafii.vue",
     "chunkName": "pages/tkimamsyafii",
-    "_name": "_14e41b08"
+    "_name": "_7628ca10"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/home/anton/work/dev/id-card-gen/fe-card/pages/index.vue",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_bee1a7a8"
+    "_name": "_369eba3c"
   }
 ]
