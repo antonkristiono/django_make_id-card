@@ -28,6 +28,20 @@
     "_name": "_1ac8c848"
   },
   {
+    "name": "hic2",
+    "path": "/hic2",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/hic2.vue",
+    "chunkName": "pages/hic2",
+    "_name": "_c57a8514"
+  },
+  {
+    "name": "hic2-back",
+    "path": "/hic2-back",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/hic2-back.vue",
+    "chunkName": "pages/hic2-back",
+    "_name": "_500101e4"
+  },
+  {
     "name": "index13",
     "path": "/index13",
     "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/index13.vue",
@@ -47,6 +61,20 @@
     "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/pol2-back.vue",
     "chunkName": "pages/pol2-back",
     "_name": "_936847ce"
+  },
+  {
+    "name": "rd2",
+    "path": "/rd2",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/rd2.vue",
+    "chunkName": "pages/rd2",
+    "_name": "_239baf2a"
+  },
+  {
+    "name": "rd2-back",
+    "path": "/rd2-back",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/rd2-back.vue",
+    "chunkName": "pages/rd2-back",
+    "_name": "_0885044c"
   },
   {
     "name": "sicc",
