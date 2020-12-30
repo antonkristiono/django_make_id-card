@@ -14,6 +14,8 @@ const _290d258b = () => interopDefault(import('../pages/pol2.vue' /* webpackChun
 const _936847ce = () => interopDefault(import('../pages/pol2-back.vue' /* webpackChunkName: "pages/pol2-back" */))
 const _239baf2a = () => interopDefault(import('../pages/rd2.vue' /* webpackChunkName: "pages/rd2" */))
 const _0885044c = () => interopDefault(import('../pages/rd2-back.vue' /* webpackChunkName: "pages/rd2-back" */))
+const _0d3fac24 = () => interopDefault(import('../pages/salam2.vue' /* webpackChunkName: "pages/salam2" */))
+const _c3a9c4d4 = () => interopDefault(import('../pages/salam2-back.vue' /* webpackChunkName: "pages/salam2-back" */))
 const _16a22abc = () => interopDefault(import('../pages/sicc.vue' /* webpackChunkName: "pages/sicc" */))
 const _4ca124f0 = () => interopDefault(import('../pages/sicc-back.vue' /* webpackChunkName: "pages/sicc-back" */))
 const _349ce184 = () => interopDefault(import('../pages/sma10PIimamsyafii.vue' /* webpackChunkName: "pages/sma10PIimamsyafii" */))
@@ -80,6 +82,14 @@ export const routerOptions = {
     path: "/rd2-back",
     component: _0885044c,
     name: "rd2-back"
+  }, {
+    path: "/salam2",
+    component: _0d3fac24,
+    name: "salam2"
+  }, {
+    path: "/salam2-back",
+    component: _c3a9c4d4,
+    name: "salam2-back"
   }, {
     path: "/sicc",
     component: _16a22abc,

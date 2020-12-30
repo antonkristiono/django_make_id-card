@@ -77,6 +77,20 @@
     "_name": "_0885044c"
   },
   {
+    "name": "salam2",
+    "path": "/salam2",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/salam2.vue",
+    "chunkName": "pages/salam2",
+    "_name": "_0d3fac24"
+  },
+  {
+    "name": "salam2-back",
+    "path": "/salam2-back",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/salam2-back.vue",
+    "chunkName": "pages/salam2-back",
+    "_name": "_c3a9c4d4"
+  },
+  {
     "name": "sicc",
     "path": "/sicc",
     "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/sicc.vue",
