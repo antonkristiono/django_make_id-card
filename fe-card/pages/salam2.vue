@@ -9,7 +9,7 @@
                 <div>
                     <img
                         class="avatar"
-                        :src="`http://localhost:8001/kartu/static/foto/sekolah_hic2/${datamurid.IdImage}.${datamurid.fotoExtension}`"
+                        :src="`http://localhost:8001/kartu/static/foto/sekolah_salam2/${datamurid.IdImage}.${datamurid.fotoExtension}`"
                     />
                 </div>
                 <div class="info">
@@ -150,8 +150,8 @@
      width: 110px;
      position: absolute;
      z-index: -1;
-     top: 54px;
-     left: 58px;
+     top: 106px;
+     left: 34px;
      /* transform: rotate(90deg); */
  }
 
