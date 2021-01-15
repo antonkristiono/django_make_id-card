@@ -49,6 +49,20 @@
     "_name": "_0b27865e"
   },
   {
+    "name": "mizan",
+    "path": "/mizan",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/mizan.vue",
+    "chunkName": "pages/mizan",
+    "_name": "_04b35ff5"
+  },
+  {
+    "name": "mizan-back",
+    "path": "/mizan-back",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/mizan-back.vue",
+    "chunkName": "pages/mizan-back",
+    "_name": "_3f48d822"
+  },
+  {
     "name": "pol2",
     "path": "/pol2",
     "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/pol2.vue",

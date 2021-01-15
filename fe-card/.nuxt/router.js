@@ -10,6 +10,8 @@ const _1ac8c848 = () => interopDefault(import('../pages/golf-back.vue' /* webpac
 const _c57a8514 = () => interopDefault(import('../pages/hic2.vue' /* webpackChunkName: "pages/hic2" */))
 const _500101e4 = () => interopDefault(import('../pages/hic2-back.vue' /* webpackChunkName: "pages/hic2-back" */))
 const _0b27865e = () => interopDefault(import('../pages/index13.vue' /* webpackChunkName: "pages/index13" */))
+const _04b35ff5 = () => interopDefault(import('../pages/mizan.vue' /* webpackChunkName: "pages/mizan" */))
+const _3f48d822 = () => interopDefault(import('../pages/mizan-back.vue' /* webpackChunkName: "pages/mizan-back" */))
 const _290d258b = () => interopDefault(import('../pages/pol2.vue' /* webpackChunkName: "pages/pol2" */))
 const _936847ce = () => interopDefault(import('../pages/pol2-back.vue' /* webpackChunkName: "pages/pol2-back" */))
 const _239baf2a = () => interopDefault(import('../pages/rd2.vue' /* webpackChunkName: "pages/rd2" */))
@@ -66,6 +68,14 @@ export const routerOptions = {
     path: "/index13",
     component: _0b27865e,
     name: "index13"
+  }, {
+    path: "/mizan",
+    component: _04b35ff5,
+    name: "mizan"
+  }, {
+    path: "/mizan-back",
+    component: _3f48d822,
+    name: "mizan-back"
   }, {
     path: "/pol2",
     component: _290d258b,
