@@ -42,6 +42,20 @@
     "_name": "_500101e4"
   },
   {
+    "name": "icbs",
+    "path": "/icbs",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/icbs.vue",
+    "chunkName": "pages/icbs",
+    "_name": "_6cc4b41e"
+  },
+  {
+    "name": "icbs-back",
+    "path": "/icbs-back",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/icbs-back.vue",
+    "chunkName": "pages/icbs-back",
+    "_name": "_0a19ab73"
+  },
+  {
     "name": "index13",
     "path": "/index13",
     "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/index13.vue",
