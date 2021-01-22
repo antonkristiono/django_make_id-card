@@ -17,7 +17,7 @@
                         <div v-else>
                             <p class="nama_alter">{{ datamurid.nama }}</p>
                         </div>
-                        <p class="idcard"><b>{{ datamurid.IdImage }}</b></p>
+                        <p class="idcard"><b>{{ datamurid.IdCard }}</b></p>
                         <p class="ttl"><b>{{ datamurid.TempatLahir }},{{ datamurid.TanggalLahir | moment("D MMMM YYYY")}}</b></p>
                         <div v-if="datamurid.alamat == null ? 20  : datamurid.alamat.length < 50">
                             <p class="address"><b>{{ datamurid.alamat == null ? "-" : datamurid.alamat }}</b></p>
