@@ -42,6 +42,20 @@
     "_name": "_500101e4"
   },
   {
+    "name": "hic3",
+    "path": "/hic3",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/hic3.vue",
+    "chunkName": "pages/hic3",
+    "_name": "_c55e5612"
+  },
+  {
+    "name": "hic3-back",
+    "path": "/hic3-back",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/hic3-back.vue",
+    "chunkName": "pages/hic3-back",
+    "_name": "_676e1fa6"
+  },
+  {
     "name": "icbs",
     "path": "/icbs",
     "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/icbs.vue",
@@ -117,6 +131,20 @@
     "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/salam2-back.vue",
     "chunkName": "pages/salam2-back",
     "_name": "_c3a9c4d4"
+  },
+  {
+    "name": "salam3",
+    "path": "/salam3",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/salam3.vue",
+    "chunkName": "pages/salam3",
+    "_name": "_0d237d22"
+  },
+  {
+    "name": "salam3-back",
+    "path": "/salam3-back",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/salam3-back.vue",
+    "chunkName": "pages/salam3-back",
+    "_name": "_db16e296"
   },
   {
     "name": "sicc",

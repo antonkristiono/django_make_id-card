@@ -9,6 +9,8 @@ const _f6015030 = () => interopDefault(import('../pages/golf.vue' /* webpackChun
 const _1ac8c848 = () => interopDefault(import('../pages/golf-back.vue' /* webpackChunkName: "pages/golf-back" */))
 const _c57a8514 = () => interopDefault(import('../pages/hic2.vue' /* webpackChunkName: "pages/hic2" */))
 const _500101e4 = () => interopDefault(import('../pages/hic2-back.vue' /* webpackChunkName: "pages/hic2-back" */))
+const _c55e5612 = () => interopDefault(import('../pages/hic3.vue' /* webpackChunkName: "pages/hic3" */))
+const _676e1fa6 = () => interopDefault(import('../pages/hic3-back.vue' /* webpackChunkName: "pages/hic3-back" */))
 const _6cc4b41e = () => interopDefault(import('../pages/icbs.vue' /* webpackChunkName: "pages/icbs" */))
 const _0a19ab73 = () => interopDefault(import('../pages/icbs-back.vue' /* webpackChunkName: "pages/icbs-back" */))
 const _0b27865e = () => interopDefault(import('../pages/index13.vue' /* webpackChunkName: "pages/index13" */))
@@ -20,6 +22,8 @@ const _239baf2a = () => interopDefault(import('../pages/rd2.vue' /* webpackChunk
 const _0885044c = () => interopDefault(import('../pages/rd2-back.vue' /* webpackChunkName: "pages/rd2-back" */))
 const _0d3fac24 = () => interopDefault(import('../pages/salam2.vue' /* webpackChunkName: "pages/salam2" */))
 const _c3a9c4d4 = () => interopDefault(import('../pages/salam2-back.vue' /* webpackChunkName: "pages/salam2-back" */))
+const _0d237d22 = () => interopDefault(import('../pages/salam3.vue' /* webpackChunkName: "pages/salam3" */))
+const _db16e296 = () => interopDefault(import('../pages/salam3-back.vue' /* webpackChunkName: "pages/salam3-back" */))
 const _16a22abc = () => interopDefault(import('../pages/sicc.vue' /* webpackChunkName: "pages/sicc" */))
 const _4ca124f0 = () => interopDefault(import('../pages/sicc-back.vue' /* webpackChunkName: "pages/sicc-back" */))
 const _349ce184 = () => interopDefault(import('../pages/sma10PIimamsyafii.vue' /* webpackChunkName: "pages/sma10PIimamsyafii" */))
@@ -67,6 +71,14 @@ export const routerOptions = {
     component: _500101e4,
     name: "hic2-back"
   }, {
+    path: "/hic3",
+    component: _c55e5612,
+    name: "hic3"
+  }, {
+    path: "/hic3-back",
+    component: _676e1fa6,
+    name: "hic3-back"
+  }, {
     path: "/icbs",
     component: _6cc4b41e,
     name: "icbs"
@@ -110,6 +122,14 @@ export const routerOptions = {
     path: "/salam2-back",
     component: _c3a9c4d4,
     name: "salam2-back"
+  }, {
+    path: "/salam3",
+    component: _0d237d22,
+    name: "salam3"
+  }, {
+    path: "/salam3-back",
+    component: _db16e296,
+    name: "salam3-back"
   }, {
     path: "/sicc",
     component: _16a22abc,
