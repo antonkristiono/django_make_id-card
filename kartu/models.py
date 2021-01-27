@@ -39,7 +39,7 @@ class DataMurid (models.Model):
     sekolah = models.ForeignKey(NamaSekolah, blank=True, null=True, on_delete=models.CASCADE)
     nama = models.CharField(max_length=30,blank=True,null=True)
     IdCard = models.CharField("ID Pada Kartu", max_length=50,blank=True, null=True)
-    alamat = models.CharField(max_length=30,blank=True,null=True)
+    alamat = models.CharField(max_length=200,blank=True,null=True)
     kategori = models.CharField("sd/smp/sma",max_length=10,blank=True,null=True)
     TempatLahir = models.CharField(max_length=30,blank=True,null=True)
     TanggalLahir = models.CharField(max_length=30,blank=True, null=True)
