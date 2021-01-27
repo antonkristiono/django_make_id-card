@@ -1,12 +1,12 @@
 <template>
     <div>
         <div v-for="(datamurid, index) in datamurids" :key="datamurid.IdCard">
-            <div v-if="datamurid.kategori == 'pelajar'">
+            <div v-show="datamurid.cetak == false">
                 <div class="customCardFront">
                     <img src="http://localhost:8001/kartu/static/cardtemplate/sekolah_26/p_dpn.png/" width="100%" height="100%" />
                     <div>
                         <img
-                        :src="`http://localhost:8001/kartu/static/foto/sekolah_mizan/${datamurid.IdImage}.${datamurid.fotoExtension}`"
+                        :src="`http://localhost:8001/kartu/static/foto/sekolah_mizan4/${datamurid.IdImage}.${datamurid.fotoExtension}`"
                         class="avatar"
                         alt=""
                         />
@@ -32,31 +32,31 @@
                     </div>
                 </div>
             </div>
-            <div v-else>
-                <div class="customCardFront">
-                    <img src="http://localhost:8001/kartu/static/cardtemplate/sekolah_26/g_dpn.png/" width="100%" height="100%" />
-                    <div>
-                        <img
-                        :src="`http://localhost:8001/kartu/static/foto/sekolah_mizan/${datamurid.IdImage}.${datamurid.fotoExtension}`"
-                        class="avatar2"
-                        alt=""
-                        />
-                    </div>
-                    <div class="info2">
-                        <div v-if="datamurid.nama.length < 23">
-                            <p class="nama2">{{ datamurid.nama }}</p>
-                        </div>
-                        <div v-else>
-                            <p class="nama_alter2">{{ datamurid.nama }}</p>
-                        </div>
-                        <p class="idcard2"><b>{{ datamurid.IdImage }}</b></p>
-                        <p class="ttl2"><b>{{ datamurid.TempatLahir }},{{ datamurid.TanggalLahir | moment("D MMMM YYYY")}}</b></p>
-                    </div>
-                    <div>
-                        <vue-qrcode class="qrcode2" :value="datamurid.IdImage" margin="1" width="63"/>
-                    </div>
-                </div>
-            </div>
+            <!-- <div v-else>
+                 <div class="customCardFront">
+                 <img src="http://localhost:8001/kartu/static/cardtemplate/sekolah_26/g_dpn.png/" width="100%" height="100%" />
+                 <div>
+                 <img
+                 :src="`http://localhost:8001/kartu/static/foto/sekolah_mizan/${datamurid.IdImage}.${datamurid.fotoExtension}`"
+                 class="avatar2"
+                 alt=""
+                 />
+                 </div>
+                 <div class="info2">
+                 <div v-if="datamurid.nama.length < 23">
+                 <p class="nama2">{{ datamurid.nama }}</p>
+                 </div>
+                 <div v-else>
+                 <p class="nama_alter2">{{ datamurid.nama }}</p>
+                 </div>
+                 <p class="idcard2"><b>{{ datamurid.IdImage }}</b></p>
+                 <p class="ttl2"><b>{{ datamurid.TempatLahir }},{{ datamurid.TanggalLahir | moment("D MMMM YYYY")}}</b></p>
+                 </div>
+                 <div>
+                 <vue-qrcode class="qrcode2" :value="datamurid.IdImage" margin="1" width="63"/>
+                 </div>
+                 </div>
+                 </div> -->
         </div>
     </div>
 </template>

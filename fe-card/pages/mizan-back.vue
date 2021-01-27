@@ -1,16 +1,16 @@
 <template>
     <div>
         <div v-for="(datamurid, index) in datamurids" :key="datamurid.IdCard">
-            <div v-if="datamurid.kategori == 'pelajar'">
+            <div v-show="datamurid.cetak == false">
                 <div class="customCardFront">
                     <img src="http://localhost:8001/kartu/static/cardtemplate/sekolah_26/p_blkg.png/" width="100%" height="100%" />
                 </div>
             </div>
-            <div v-else>
-                <div class="customCardFront">
-                    <img src="http://localhost:8001/kartu/static/cardtemplate/sekolah_26/g_blkg.png/" width="100%" height="100%" />
-                </div>
-            </div>
+            <!-- <div v-else>
+                 <div class="customCardFront">
+                 <img src="http://localhost:8001/kartu/static/cardtemplate/sekolah_26/g_blkg.png/" width="100%" height="100%" />
+                 </div>
+                 </div> -->
         </div>
 
 
