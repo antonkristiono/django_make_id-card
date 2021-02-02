@@ -1,7 +1,7 @@
 <template>
     <div>
         <div v-for="(datamurid, index) in datamurids" :key="datamurid.IdCard">
-            <div class="customCardFront">
+            <div v-if="datamurid.cetak === false" class="customCardFront">
                 <div v-if='datamurid.kategori === "smp"'>
                 <img src="http://localhost:8001/kartu/static/cardtemplate/sekolah_30/blkgAminSMP.png/" width="100%" height="100%" />
                 </div>
