@@ -1,5 +1,19 @@
 [
   {
+    "name": "amin",
+    "path": "/amin",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/amin.vue",
+    "chunkName": "pages/amin",
+    "_name": "_b183f352"
+  },
+  {
+    "name": "amin-back",
+    "path": "/amin-back",
+    "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/amin-back.vue",
+    "chunkName": "pages/amin-back",
+    "_name": "_2fc39acd"
+  },
+  {
     "name": "back",
     "path": "/back",
     "component": "/home/anton/work/dev/django_make_id-card/fe-card/pages/back.vue",

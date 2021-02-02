@@ -3,6 +3,8 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+const _b183f352 = () => interopDefault(import('../pages/amin.vue' /* webpackChunkName: "pages/amin" */))
+const _2fc39acd = () => interopDefault(import('../pages/amin-back.vue' /* webpackChunkName: "pages/amin-back" */))
 const _ec25dc26 = () => interopDefault(import('../pages/back.vue' /* webpackChunkName: "pages/back" */))
 const _77829462 = () => interopDefault(import('../pages/back13.vue' /* webpackChunkName: "pages/back13" */))
 const _f6015030 = () => interopDefault(import('../pages/golf.vue' /* webpackChunkName: "pages/golf" */))
@@ -47,6 +49,14 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/amin",
+    component: _b183f352,
+    name: "amin"
+  }, {
+    path: "/amin-back",
+    component: _2fc39acd,
+    name: "amin-back"
+  }, {
     path: "/back",
     component: _ec25dc26,
     name: "back"
