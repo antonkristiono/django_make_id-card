@@ -3,7 +3,12 @@
         <div v-for="(datamurid, index) in datamurids" :key="datamurid.IdCard">
             <div v-show="datamurid.cetak == false">
                 <div class="customCardFront">
-                    <img src="http://localhost:8001/kartu/static/cardtemplate/sekolah_26/p_blkg.png/" width="100%" height="100%" />
+                    <template v-if="datamurid.kategori == 'pelajar'">
+                        <img src="http://localhost:8001/kartu/static/cardtemplate/sekolah_26/p_blkg.png/" width="100%" height="100%" />
+                    </template>
+                    <template v-else>
+                        <img src="http://localhost:8001/kartu/static/cardtemplate/sekolah_26/g_blkg.png/" width="100%" height="100%" />
+                    </template>
                 </div>
             </div>
             <!-- <div v-else>
@@ -31,7 +36,7 @@
        };
    },
    async asyncData() {
-       const { data } = await axios.get("http://localhost:8001/api/datamurid/26");
+       const { data } = await axios.get("http://localhost:8001/api/datamurid/31");
        return { datamurids: data };
    },
 };
